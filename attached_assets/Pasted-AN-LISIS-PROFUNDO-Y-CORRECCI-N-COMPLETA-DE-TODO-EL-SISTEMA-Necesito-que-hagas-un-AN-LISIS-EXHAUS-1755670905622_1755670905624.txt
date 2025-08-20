@@ -1,0 +1,45 @@
+ANÁLISIS PROFUNDO Y CORRECCIÓN COMPLETA DE TODO EL SISTEMA:
+
+Necesito que hagas un ANÁLISIS EXHAUSTIVO y CORRECCIÓN TOTAL de todo el proyecto:
+
+1. **ANÁLISIS COMPLETO DEL BACKEND**:
+   - Revisa TODAS las rutas en `server/routes.ts`
+   - Verifica TODOS los endpoints y sus validaciones
+   - Revisa TODOS los schemas en `shared/schema.ts`
+   - Comprueba middleware de autenticación, CORS, validaciones
+   - Verifica conexión a base de datos y configuraciones
+
+2. **ANÁLISIS COMPLETO DEL FRONTEND**:
+   - Revisa TODOS los archivos de páginas y componentes
+   - Verifica TODAS las peticiones HTTP en todo el sistema
+   - Comprueba rutas, navegación, importaciones
+   - Verifica que todos los componentes tengan las dependencias correctas
+   - Revisa configuración de Vite, TypeScript, etc.
+
+3. **ANÁLISIS COMPLETO DE LA BASE DE DATOS**:
+   - Revisa `database_schema.txt` para TODAS las tablas
+   - Compara con TODOS los schemas en `shared/schema.ts`
+   - Identifica TODAS las discrepancias entre DB real y código
+   - Verifica relaciones, índices, constraints
+   - Genera scripts SQL para corregir TODAS las diferencias
+
+4. **ANÁLISIS DE CONFIGURACIÓN**:
+   - Verifica variables de entorno
+   - Comprueba configuración de conexión a Neon
+   - Revisa configuración de build, desarrollo, producción
+   - Verifica dependencias en package.json
+
+5. **CORRECCIÓN TOTAL DEL SISTEMA**:
+   - Corrige TODAS las discrepancias encontradas en todo el proyecto
+   - Sincroniza completamente frontend, backend y base de datos
+   - Corrige todos los errores, importaciones rotas, tipos incorrectos
+   - Asegúrate de que TODA la aplicación funcione perfectamente
+   - Mantén TODAS las funcionalidades existentes que ya funcionaban
+
+6. **VERIFICACIÓN COMPLETA**:
+   - Prueba que TODO el sistema funcione sin errores
+   - Verifica que todas las páginas carguen correctamente
+   - Confirma que todas las funcionalidades operen bien
+   - Asegúrate de que no hay errores en consola
+
+HAZLO TODO COMPLETO. Analiza TODO el sistema, identifica TODAS las discrepancias y problemas, y corrígelos COMPLETAMENTE de una vez.

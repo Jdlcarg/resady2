@@ -1,0 +1,61 @@
+POST https://45ad5278-e319-4b90-a532-de1d222e2cb6-00-3t2ld4mjj1rje.riker.replit.dev/api/stock-control/sessions 400 (Bad Request)
+startScanningSession @ stock-control-final.tsx:277
+callCallback2 @ chunk-RPCDYKBN.js?v=6b7a6770:3674
+invokeGuardedCallbackDev @ chunk-RPCDYKBN.js?v=6b7a6770:3699
+invokeGuardedCallback @ chunk-RPCDYKBN.js?v=6b7a6770:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-RPCDYKBN.js?v=6b7a6770:3736
+executeDispatch @ chunk-RPCDYKBN.js?v=6b7a6770:7014
+processDispatchQueueItemsInOrder @ chunk-RPCDYKBN.js?v=6b7a6770:7034
+processDispatchQueue @ chunk-RPCDYKBN.js?v=6b7a6770:7043
+dispatchEventsForPlugins @ chunk-RPCDYKBN.js?v=6b7a6770:7051
+(anonymous) @ chunk-RPCDYKBN.js?v=6b7a6770:7174
+batchedUpdates$1 @ chunk-RPCDYKBN.js?v=6b7a6770:18913
+batchedUpdates @ chunk-RPCDYKBN.js?v=6b7a6770:3579
+dispatchEventForPluginEventSystem @ chunk-RPCDYKBN.js?v=6b7a6770:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-RPCDYKBN.js?v=6b7a6770:5478
+dispatchEvent @ chunk-RPCDYKBN.js?v=6b7a6770:5472
+dispatchDiscreteEvent @ chunk-RPCDYKBN.js?v=6b7a6770:5449
+stock-control-final.tsx:286 📡 Session creation response status: 400
+stock-control-final.tsx:287 📡 Session creation response headers: {content-length: '449', content-type: 'application/json; charset=utf-8', date: 'Wed, 20 Aug 2025 06:28:50 GMT', etag: 'W/"1c1-NK1Y44aScq7zcHzWS6XjahF9mpI"', replit-cluster: 'riker', …}
+stock-control-final.tsx:299 ❌ Session creation failed: 400 {message: 'Invalid request', error: '[\n  {\n    "code": "invalid_type",\n    "expected": …"message": "Expected date, received string"\n  }\n]', receivedData: {…}}error: "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"date\",\n    \"received\": \"string\",\n    \"path\": [\n      \"date\"\n    ],\n    \"message\": \"Expected date, received string\"\n  }\n]"message: "Invalid request"receivedData: {clientId: 46, userId: 58, date: '2025-08-20T06:28:50.115Z', totalProducts: 6, scannedProducts: 0, …}clientId: 46date: "2025-08-20T06:28:50.115Z"missingProducts: 0notes: "Stock control started at 20/8/2025, 03:28:50"scannedProducts: 0status: "active"totalProducts: 6userId: 58[[Prototype]]: Objectconstructor: ƒ Object()hasOwnProperty: ƒ hasOwnProperty()isPrototypeOf: ƒ isPrototypeOf()propertyIsEnumerable: ƒ propertyIsEnumerable()toLocaleString: ƒ toLocaleString()toString: ƒ toString()valueOf: ƒ valueOf()__defineGetter__: ƒ __defineGetter__()__defineSetter__: ƒ __defineSetter__()__lookupGetter__: ƒ __lookupGetter__()__lookupSetter__: ƒ __lookupSetter__()__proto__: (...)get __proto__: ƒ __proto__()set __proto__: ƒ __proto__()[[Prototype]]: Object
+startScanningSession @ stock-control-final.tsx:299
+await in startScanningSession
+callCallback2 @ chunk-RPCDYKBN.js?v=6b7a6770:3674
+invokeGuardedCallbackDev @ chunk-RPCDYKBN.js?v=6b7a6770:3699
+invokeGuardedCallback @ chunk-RPCDYKBN.js?v=6b7a6770:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-RPCDYKBN.js?v=6b7a6770:3736
+executeDispatch @ chunk-RPCDYKBN.js?v=6b7a6770:7014
+processDispatchQueueItemsInOrder @ chunk-RPCDYKBN.js?v=6b7a6770:7034
+processDispatchQueue @ chunk-RPCDYKBN.js?v=6b7a6770:7043
+dispatchEventsForPlugins @ chunk-RPCDYKBN.js?v=6b7a6770:7051
+(anonymous) @ chunk-RPCDYKBN.js?v=6b7a6770:7174
+batchedUpdates$1 @ chunk-RPCDYKBN.js?v=6b7a6770:18913
+batchedUpdates @ chunk-RPCDYKBN.js?v=6b7a6770:3579
+dispatchEventForPluginEventSystem @ chunk-RPCDYKBN.js?v=6b7a6770:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-RPCDYKBN.js?v=6b7a6770:5478
+dispatchEvent @ chunk-RPCDYKBN.js?v=6b7a6770:5472
+dispatchDiscreteEvent @ chunk-RPCDYKBN.js?v=6b7a6770:5449
+stock-control-final.tsx:334 ❌ Error starting session: Error: Server error: 400 - {"message":"Invalid request","error":"[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"date\",\n    \"received\": \"string\",\n    \"path\": [\n      \"date\"\n    ],\n    \"message\": \"Expected date, received string\"\n  }\n]","receivedData":{"clientId":46,"userId":58,"date":"2025-08-20T06:28:50.115Z","totalProducts":6,"scannedProducts":0,"missingProducts":0,"status":"active","notes":"Stock control started at 20/8/2025, 03:28:50"}}
+    at startScanningSession (stock-control-final.tsx:305:15)
+startScanningSession @ stock-control-final.tsx:334
+await in startScanningSession
+callCallback2 @ chunk-RPCDYKBN.js?v=6b7a6770:3674
+invokeGuardedCallbackDev @ chunk-RPCDYKBN.js?v=6b7a6770:3699
+invokeGuardedCallback @ chunk-RPCDYKBN.js?v=6b7a6770:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-RPCDYKBN.js?v=6b7a6770:3736
+executeDispatch @ chunk-RPCDYKBN.js?v=6b7a6770:7014
+processDispatchQueueItemsInOrder @ chunk-RPCDYKBN.js?v=6b7a6770:7034
+processDispatchQueue @ chunk-RPCDYKBN.js?v=6b7a6770:7043
+dispatchEventsForPlugins @ chunk-RPCDYKBN.js?v=6b7a6770:7051
+(anonymous) @ chunk-RPCDYKBN.js?v=6b7a6770:7174
+batchedUpdates$1 @ chunk-RPCDYKBN.js?v=6b7a6770:18913
+batchedUpdates @ chunk-RPCDYKBN.js?v=6b7a6770:3579
+dispatchEventForPluginEventSystem @ chunk-RPCDYKBN.js?v=6b7a6770:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-RPCDYKBN.js?v=6b7a6770:5478
+dispatchEvent @ chunk-RPCDYKBN.js?v=6b7a6770:5472
+dispatchDiscreteEvent @ chunk-RPCDYKBN.js?v=6b7a6770:5449
+stock-control-final.tsx:197 Product array length: 6 Products: (6) [{…}, {…}, {…}, {…}, {…}, {…}]
+stock-control-final.tsx:220 Calculated stats: {total: 6, disponible: 6, reservado: 0, vendido: 0, tecnico_interno: 0, …}
+stock-control-final.tsx:105 Products fetched: (6) [{…}, {…}, {…}, {…}, {…}, {…}]
+stock-control-final.tsx:197 Product array length: 6 Products: (6) [{…}, {…}, {…}, {…}, {…}, {…}]
+stock-control-final.tsx:220 Calculated stats: {total: 6, disponible: 6, reservado: 0, vendido: 0, tecnico_interno: 0, …}
